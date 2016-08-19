@@ -1,0 +1,18 @@
+//Minireto
+
+import UIKit
+
+let B = "Bingo!!!"
+let P = "Par"
+let I = "Impar"
+let V = "Viva Swift"
+
+for i in 0...100 {
+    if  i >= 30 && i <= 40 {print("\(i) " + V)}
+    else if i%2 != 0 && i%5 == 0 {print("\(i) " + B + I)}
+    else if i%2 == 0 && i%5 == 0 {print("\(i) " + B + P)}
+    else if i%2 == 0 {print("\(i) " + P)}
+    else if i%2 != 0 {print("\(i) " + I)}
+}
+
+
